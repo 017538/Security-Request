@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Employee Badge Security Modification">99350a6d1b323814968db95fdc4bcbd3</catalog_item>
+        <catalog_variable>IO:75885e691bb23814968db95fdc4bcb7e</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-10-07 14:40:50</sys_created_on>
+        <sys_id>f7c4d8bd1b43b810968db95fdc4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sbm_employee</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_f7c4d8bd1b43b810968db95fdc4bcb78</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-10-07 14:40:50</sys_updated_on>
+        <table/>
+        <ui_policy display_value="required fields (On load)">060f84551b4fb410968db95fdc4bcb5d</ui_policy>
+        <variable>sbm_employee</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

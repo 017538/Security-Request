@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</category>
+        <checked_out>false</checked_out>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><span style="font-size: 10pt;"><strong>&#34;Security Request&#34;</strong> allows a user an efficient way to request the services of the appropriate personnel. </span></p>
+<p><br /></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Employee Badge Security Modification</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>true</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Jeffrey Kucaj">67def77fdbd55300f23def92ca961963</owner>
+        <picture>d4bb928e87633450743bfc07cebb356d</picture>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=99350a6d1b323814968db95fdc4bcbd3&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>catalog_home</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.priority = 3;
+current.state = -5;
+var eOpendBy = current.employee = producer.sbm_opened_by;
+var eName = current.requested_for = producer.sbm_opened_by;
+current.cat_item = RP.getParameterValue('sysparm_id');
+current.cmdb_ci = producer.sbm_configuration_item;
+
+//convert the sys_id of the employee field into a user friendly name
+var empName;
+var emp = new GlideRecord('sys_user');
+emp.addQuery('sys_id',eName);
+emp.query();
+while (emp.next());{
+	empName = emp.getDisplayValue();	
+	current.short_description = 'New badge modification for employee: ' + empName ;
+}
+
+//Create an array to display the door template names in the description field.
+var doorName = [];  //create an arrary to hold door templates
+var drTemp = new GlideRecord('x_chahs_security_t_door_templates');
+drTemp.addEncodedQuery('sys_idIN' + producer.u_door_security_templates);  
+drTemp.orderBy('label');  //Ascending order
+drTemp.query();
+
+while(drTemp.next()) {	
+	doorName.push('\n' + '  ' + drTemp.getDisplayValue());//push door templates into arrary, and enter each one onto a new row. 
+	current.description = 'Requested door templates:' + doorName; 
+}
+//convert the sys_id of the SBM_Opend_By into a user friendly name
+
+var emp1 = new GlideRecord('sys_user');
+emp1.addQuery('sys_id',eOpendBy);
+emp1.query();
+while (emp1.next());{
+
+	var tname = emp1.first_name;
+}
+
+gs.addInfoMessage("Thank you " +  tname + ", your request " + current.number + " has been submitted.");
+
+//created by Jeff Kucaj 9-19-2021]]></script>
+        <short_description>Create a Security Request for modifying an employee's security door access.  </short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state>published</state>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-09-24 18:54:09</sys_created_on>
+        <sys_id>99350a6d1b323814968db95fdc4bcbd3</sys_id>
+        <sys_mod_count>162</sys_mod_count>
+        <sys_name>Employee Badge Security Modification</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>sc_cat_item_producer_99350a6d1b323814968db95fdc4bcbd3</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-12-20 19:36:42</sys_updated_on>
+        <table_name>x_chahs_security_t_security_request</table_name>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=99350a6d1b323814968db95fdc4bcbd3"/>
+    <fx_price action="delete_multiple" query="id=99350a6d1b323814968db95fdc4bcbd3"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>99350a6d1b323814968db95fdc4bcbd3</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-09-24 18:54:09</sys_created_on>
+        <sys_id>7f22d6211bb23814968db95fdc4bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-09-24 18:54:09</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#d9e9f2</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash>a3d144a18d623a930b684755e580914d4d5fef752415b6a581b17b0beaaac07a</hash>
+        <image_height>150</image_height>
+        <image_width>150</image_width>
+        <size_bytes>5636</size_bytes>
+        <size_compressed>5468</size_compressed>
+        <state>available</state>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-11-02 15:39:44</sys_created_on>
+        <sys_id>d4bb928e87633450743bfc07cebb356d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-11-02 15:39:44</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>99350a6d1b323814968db95fdc4bcbd3</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="d4bb928e87633450743bfc07cebb356d">d4bb928e87633450743bfc07cebb356d</sys_attachment>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-11-02 15:39:44</sys_created_on>
+        <sys_id>18bb928e87633450743bfc07cebb356d</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>7280</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="d4bb928e87633450743bfc07cebb356d">d4bb928e87633450743bfc07cebb356d</sys_attachment>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-11-02 15:39:44</sys_created_on>
+        <sys_id>98bb928e87633450743bfc07cebb356d</sys_id>
+    </sys_attachment_doc>
+</record_update>

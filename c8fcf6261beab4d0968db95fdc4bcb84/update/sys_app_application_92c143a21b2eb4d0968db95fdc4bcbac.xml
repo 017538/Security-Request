@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Security Services Request</name>
+        <order>100</order>
+        <roles>x_chahs_security_t.security_request_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-09-15 14:40:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>92c143a21b2eb4d0968db95fdc4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security Services Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>sys_app_application_92c143a21b2eb4d0968db95fdc4bcbac</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-09-15 14:40:21</sys_updated_on>
+        <title>Security Services Request</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item/>
+        <catalog_variable>IO:b50f84551b4fb410968db95fdc4bcb4f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-10-06 00:58:21</sys_created_on>
+        <sys_id>420f84551b4fb410968db95fdc4bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sbm_configuration_item</sys_name>
+        <sys_package display_value="Security Team " source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team ">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_420f84551b4fb410968db95fdc4bcb62</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-10-06 00:58:21</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hidden fields - On load">060f84551b4fb410968db95fdc4bcb5d</ui_policy>
+        <variable>sbm_configuration_item</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</application>
+        <file_path/>
+        <instance_id>429f520ddb4bcb40e1b8f897bf961961</instance_id>
+        <instance_name>chwdev</instance_name>
+        <name>catalog_ui_policy_action_420f84551b4fb410968db95fdc4bcb62</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item/><catalog_variable>IO:b50f84551b4fb410968db95fdc4bcb4f</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>JK236</sys_created_by><sys_created_on>2021-10-06 00:58:21</sys_created_on><sys_id>420f84551b4fb410968db95fdc4bcb62</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sbm_configuration_item</sys_name><sys_package display_value="Security Team " source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package><sys_policy/><sys_scope display_value="Security Team ">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope><sys_update_name>catalog_ui_policy_action_420f84551b4fb410968db95fdc4bcb62</sys_update_name><sys_updated_by>JK236</sys_updated_by><sys_updated_on>2021-10-06 00:58:21</sys_updated_on><table/><ui_policy display_value="Hidden fields - On load">060f84551b4fb410968db95fdc4bcb5d</ui_policy><variable>sbm_configuration_item</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1448802891</payload_hash>
+        <record_name>sbm_configuration_item</record_name>
+        <reverted_from/>
+        <source>b32383261b2eb4d0968db95fdc4bcba9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-10-06 00:58:48</sys_created_on>
+        <sys_id>642f0c551b4fb410968db95fdc4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c531c2fe30000001</sys_recorded_at>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-10-06 00:58:48</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>860f8455f04fb410b874130c4390e265</update_guid>
+        <update_guid_history>860f8455f04fb410b874130c4390e265:-468370520,860f8455f04fb410b874130c4390e265:-468370520</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">92b4d4bd1b43b810968db95fdc4bcb7c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-10-07 14:40:12</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>0a1ec29ae43444f58240815ed2d173e9</sys_id>
+        <sys_metadata>420f84551b4fb410968db95fdc4bcb62</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sbm_configuration_item</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_scope_delete display_value="">05aac3463c454d608140da3847f2c024</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_420f84551b4fb410968db95fdc4bcb62</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_420f84551b4fb410968db95fdc4bcb62">642f0c551b4fb410968db95fdc4bcb69</sys_update_version>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-10-07 14:40:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
