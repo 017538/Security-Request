@@ -66,6 +66,7 @@
         <trigger_type>service_catalog</trigger_type>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=02814d6d1bbaf414968db95fdc4bcbd6"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a51674291b7af414968db95fdc4bcbf5"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=a51674291b7af414968db95fdc4bcbf5^sys_idNOT IN6d1674291b7af414968db95fdc4bcbf8"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>a51674291b7af414968db95fdc4bcbf5</id>
@@ -83,6 +84,7 @@
         <sys_updated_by>JK236</sys_updated_by>
         <sys_updated_on>2021-09-24 12:11:46</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=6d1674291b7af414968db95fdc4bcbf8"/>
     <sys_hub_flow_input action="delete_multiple" query="model=a51674291b7af414968db95fdc4bcbf5^sys_idNOT IN8a814d6d1bbaf414968db95fdc4bcbc8,b5814d6d1bbaf414968db95fdc4bcbbd"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -246,6 +248,8 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=a51674291b7af414968db95fdc4bcbf5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a51674291b7af414968db95fdc4bcbf5"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=a51674291b7af414968db95fdc4bcbf5^sys_idNOT IN1705026d1b323814968db95fdc4bcbce,1705026d1b323814968db95fdc4bcbd5,42814d6d1bbaf414968db95fdc4bcbdb"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -324,6 +328,8 @@
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value>assignment_group={"display":"Hospital Security  fulfillers","value":"1ccab6b41bb278548e92777e0a4bcb0a"}^requested_for={{ccff3123-7b6b-4e63-ad2e-694648abc058.sbm_employee}}^cmdb_ci={"display":"Genetec","value":"7ead1935dbc154981789c170ba96192b"}</value>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1705026d1b323814968db95fdc4bcbce"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1705026d1b323814968db95fdc4bcbce"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -401,6 +407,8 @@
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value>short_description={{Service Catalog_1.request_item.request.short_description}} Door security request for{{ccff3123-7b6b-4e63-ad2e-694648abc058.sbm_employee}}</value>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1705026d1b323814968db95fdc4bcbd5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1705026d1b323814968db95fdc4bcbd5"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -492,6 +500,12 @@
         <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=42814d6d1bbaf414968db95fdc4bcbdb"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=42814d6d1bbaf414968db95fdc4bcbdb"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a51674291b7af414968db95fdc4bcbf5"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a51674291b7af414968db95fdc4bcbf5"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a51674291b7af414968db95fdc4bcbf5"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a51674291b7af414968db95fdc4bcbf5"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a51674291b7af414968db95fdc4bcbf5^sys_idNOT IN8a814d6d1bbaf414968db95fdc4bcbc6,ce814d6d1bbaf414968db95fdc4bcbd2"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>request_item</element>
@@ -510,7 +524,7 @@
         <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
         <sys_policy/>
         <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a51674291b7af414968db95fdc4bcbf5_request_item_en</sys_update_name>
         <sys_updated_by>JK236</sys_updated_by>
         <sys_updated_on>2021-09-24 13:01:46</sys_updated_on>
         <url/>
@@ -533,10 +547,15 @@
         <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
         <sys_policy/>
         <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a51674291b7af414968db95fdc4bcbf5_table_name_en</sys_update_name>
         <sys_updated_by>JK236</sys_updated_by>
         <sys_updated_on>2021-09-24 13:01:46</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a51674291b7af414968db95fdc4bcbf5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a51674291b7af414968db95fdc4bcbf5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a51674291b7af414968db95fdc4bcbf5"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a51674291b7af414968db95fdc4bcbf5"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a51674291b7af414968db95fdc4bcbf5"/>
 </record_update>

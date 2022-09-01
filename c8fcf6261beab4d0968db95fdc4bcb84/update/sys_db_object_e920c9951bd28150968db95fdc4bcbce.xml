@@ -11,30 +11,30 @@
         <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
-        <label>Door templates</label>
+        <label>Security Request</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>x_chahs_security_t_door_templates</name>
-        <number_ref/>
+        <name>x_chahs_security_t_security_request</name>
+        <number_ref display_value="SEC">f2c183a21b2eb4d0968db95fdc4bcb5f</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class/>
+        <super_class display_value="Task" name="task">4826ae45db030300a8b1a895ca9619e0</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>JK236</sys_created_by>
-        <sys_created_on>2021-09-29 16:24:28</sys_created_on>
-        <sys_id>62c4bacb1bebb010968db95fdc4bcbf7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Door templates</sys_name>
+        <sys_created_on>2021-09-15 14:40:21</sys_created_on>
+        <sys_id>e920c9951bd28150968db95fdc4bcbce</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Security Request</sys_name>
         <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
         <sys_policy/>
         <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
-        <sys_update_name>sys_db_object_62c4bacb1bebb010968db95fdc4bcbf7</sys_update_name>
+        <sys_update_name>sys_db_object_e920c9951bd28150968db95fdc4bcbce</sys_update_name>
         <sys_updated_by>JK236</sys_updated_by>
-        <sys_updated_on>2021-09-29 16:24:28</sys_updated_on>
+        <sys_updated_on>2021-09-23 18:49:13</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_chahs_security_t.Security team power users" name="x_chahs_security_t.Security team power users">bd78e2bc1bfe38548e92777e0a4bcb03</user_role>
+        <user_role display_value="x_chahs_security_t.Security request fulfiller" name="x_chahs_security_t.Security request fulfiller">968beafc1bfe38548e92777e0a4bcb98</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>
