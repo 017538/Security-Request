@@ -6,7 +6,7 @@
         <client_script_v2/>
         <comments>Created by Jeff Kucaj 9-30-2021 to close the  Security Door request task.&#13;
 </comments>
-        <condition> current.state.canWrite() &amp;&amp;  current.state &lt; 3 &amp;&amp; current.assigned_to!=''</condition>
+        <condition> current.state.canWrite() &amp;&amp; current.state !=-5 &amp;&amp; current.assigned_to!=''</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -16,16 +16,16 @@
         <form_style/>
         <hint/>
         <isolate_script>false</isolate_script>
-        <list_action>false</list_action>
+        <list_action>true</list_action>
         <list_banner_button>false</list_banner_button>
         <list_button>false</list_button>
         <list_choice>false</list_choice>
-        <list_context_menu>false</list_context_menu>
+        <list_context_menu>true</list_context_menu>
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>Close Request</name>
+        <name>Close Task</name>
         <onclick/>
         <order>100</order>
         <script><![CDATA[current.state = 3;
@@ -40,15 +40,15 @@ current.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>04bdc1e71bb2bc948e92777e0a4bcbe1</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Close Request</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Close Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
         <sys_policy/>
         <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
         <sys_update_name>sys_ui_action_04bdc1e71bb2bc948e92777e0a4bcbe1</sys_update_name>
         <sys_updated_by>JK236</sys_updated_by>
-        <sys_updated_on>2021-10-05 16:31:41</sys_updated_on>
+        <sys_updated_on>2022-08-08 18:34:27</sys_updated_on>
         <table>x_chahs_security_t_security_request</table>
         <u_ctv>false</u_ctv>
         <ui11_compatible>true</ui11_compatible>

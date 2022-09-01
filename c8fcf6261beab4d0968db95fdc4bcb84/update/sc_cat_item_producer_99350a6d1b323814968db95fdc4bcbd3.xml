@@ -3,10 +3,10 @@
         <access_type>restricted</access_type>
         <active>true</active>
         <allow_edit>false</allow_edit>
-        <availability>on_desktop</availability>
+        <availability>on_both</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</category>
+        <category display_value="Hospital Security">457ba3fb97c1951084e275971153af4a</category>
         <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
@@ -14,7 +14,7 @@
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p><span style="font-size: 10pt;"><strong>&#34;Security Request&#34;</strong> allows a user an efficient way to request the services of the appropriate personnel. </span></p>
-<p><br /></p>]]></description>
+<p> </p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -26,7 +26,7 @@
         <location/>
         <mandatory_attachment>false</mandatory_attachment>
         <meta/>
-        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_hide_price>true</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
@@ -42,7 +42,7 @@
         <no_quantity_v2>false</no_quantity_v2>
         <no_search>false</no_search>
         <no_wishlist_v2>true</no_wishlist_v2>
-        <omit_price>false</omit_price>
+        <omit_price>true</omit_price>
         <order>0</order>
         <ordered_item_link/>
         <owner display_value="Jeffrey Kucaj">67def77fdbd55300f23def92ca961963</owner>
@@ -63,19 +63,24 @@
         <sc_template/>
         <script><![CDATA[current.priority = 3;
 current.state = -5;
+
+
+current.sc_cat_item = producer.sc_cat_item; //Employee Badge Security Modification
+
 var eOpendBy = current.employee = producer.sbm_opened_by;
 var eName = current.requested_for = producer.sbm_opened_by;
 current.cat_item = RP.getParameterValue('sysparm_id');
 current.cmdb_ci = producer.sbm_configuration_item;
 
 //convert the sys_id of the employee field into a user friendly name
-var empName;
+var empName = [];
 var emp = new GlideRecord('sys_user');
-emp.addQuery('sys_id',eName);
+emp.addEncodedQuery('sys_idIN'+ producer.sbm_requested_for);
+emp.orderBy('name');  //Ascending order
 emp.query();
-while (emp.next());{
-	empName = emp.getDisplayValue();	
-	current.short_description = 'New badge modification for employee: ' + empName ;
+while (emp.next()){
+	empName.push('\n' + '  ' + emp.getDisplayValue());
+	current.short_description = 'New badge modification requested for: '  + empName ;
 }
 
 //Create an array to display the door template names in the description field.
@@ -110,15 +115,16 @@ gs.addInfoMessage("Thank you " +  tname + ", your request " + current.number + "
         <sys_created_by>JK236</sys_created_by>
         <sys_created_on>2021-09-24 18:54:09</sys_created_on>
         <sys_id>99350a6d1b323814968db95fdc4bcbd3</sys_id>
-        <sys_mod_count>162</sys_mod_count>
+        <sys_mod_count>182</sys_mod_count>
         <sys_name>Employee Badge Security Modification</sys_name>
         <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
         <sys_policy/>
         <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
         <sys_update_name>sc_cat_item_producer_99350a6d1b323814968db95fdc4bcbd3</sys_update_name>
         <sys_updated_by>JK236</sys_updated_by>
-        <sys_updated_on>2021-12-20 19:36:42</sys_updated_on>
+        <sys_updated_on>2022-08-09 19:52:07</sys_updated_on>
         <table_name>x_chahs_security_t_security_request</table_name>
+        <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
@@ -170,6 +176,7 @@ gs.addInfoMessage("Thank you " +  tname + ", your request " + current.number + "
         <sys_updated_on>2021-11-02 15:39:44</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item_producer</table_name>
         <table_sys_id>99350a6d1b323814968db95fdc4bcbd3</table_sys_id>
+        <u_record>99350a6d1b323814968db95fdc4bcbd3</u_record>
     </sys_attachment>
     <sys_attachment_doc action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAA==</data>
