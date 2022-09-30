@@ -2,14 +2,14 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes>ref_ac_columns=user_name;email</attributes>
-        <cat_item display_value="Employee Badge Security Modification">99350a6d1b323814968db95fdc4bcbd3</cat_item>
+        <cat_item display_value="Door Schedule Adjustment">5617ae12474e5110a6b9b6da436d437b</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>javascript:gs.getUserID()</default_value>
+        <default_value/>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -19,14 +19,14 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>opened_by</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
         <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
-        <layout>2across</layout>
+        <layout>normal</layout>
         <list_table/>
         <lookup_label/>
         <lookup_price/>
@@ -36,15 +36,15 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>true</map_to_field>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>sbm_opened_by</name>
-        <order>1100</order>
+        <name>formatter</name>
+        <order>1999</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Requested by</question_text>
+        <question_text/>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -69,19 +69,19 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>JK236</sys_created_by>
-        <sys_created_on>2021-10-07 19:14:10</sys_created_on>
-        <sys_id>e3635d391b0bb810968db95fdc4bcb91</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Requested by</sys_name>
+        <sys_created_on>2022-09-22 13:56:12</sys_created_on>
+        <sys_id>26172e92474e5110a6b9b6da436d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>formatter</sys_name>
         <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
         <sys_policy/>
         <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
-        <sys_update_name>item_option_new_e3635d391b0bb810968db95fdc4bcb91</sys_update_name>
+        <sys_update_name>item_option_new_26172e92474e5110a6b9b6da436d436c</sys_update_name>
         <sys_updated_by>JK236</sys_updated_by>
-        <sys_updated_on>2021-12-20 19:14:48</sys_updated_on>
+        <sys_updated_on>2022-09-22 13:56:12</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>8</type>
+        <type>20</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -97,22 +97,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=e3635d391b0bb810968db95fdc4bcb91"/>
-    <fx_price action="delete_multiple" query="id=e3635d391b0bb810968db95fdc4bcb91"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=26172e92474e5110a6b9b6da436d436c"/>
+    <fx_price action="delete_multiple" query="id=26172e92474e5110a6b9b6da436d436c"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>e3635d391b0bb810968db95fdc4bcb91</id>
+        <id>26172e92474e5110a6b9b6da436d436c</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>JK236</sys_created_by>
-        <sys_created_on>2021-10-07 19:14:10</sys_created_on>
-        <sys_id>ab6319791b0bb810968db95fdc4bcb45</sys_id>
+        <sys_created_on>2022-09-22 13:56:12</sys_created_on>
+        <sys_id>2e172e92474e5110a6b9b6da436d436e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>JK236</sys_updated_by>
-        <sys_updated_on>2021-10-07 19:14:10</sys_updated_on>
+        <sys_updated_on>2022-09-22 13:56:12</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -120,16 +120,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>e3635d391b0bb810968db95fdc4bcb91</id>
+        <id>26172e92474e5110a6b9b6da436d436c</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>JK236</sys_created_by>
-        <sys_created_on>2021-10-07 19:14:10</sys_created_on>
-        <sys_id>a76319791b0bb810968db95fdc4bcb44</sys_id>
+        <sys_created_on>2022-09-22 13:56:12</sys_created_on>
+        <sys_id>e2172e92474e5110a6b9b6da436d436e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>JK236</sys_updated_by>
-        <sys_updated_on>2021-10-07 19:14:10</sys_updated_on>
+        <sys_updated_on>2022-09-22 13:56:12</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

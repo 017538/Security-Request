@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Device(s) To Be Instaled">e2f3f8be474ed110a6b9b6da436d43ff</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-23 18:51:56</sys_created_on>
+        <sys_id>8c6474fe474ed110a6b9b6da436d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Camera</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>question_choice_8c6474fe474ed110a6b9b6da436d4302</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-09-23 18:51:56</sys_updated_on>
+        <text>Camera</text>
+        <value>Camera</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=8c6474fe474ed110a6b9b6da436d4302"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>8c6474fe474ed110a6b9b6da436d4302</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-23 18:51:56</sys_created_on>
+        <sys_id>446474fe474ed110a6b9b6da436d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-09-23 18:51:56</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>8c6474fe474ed110a6b9b6da436d4302</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-23 18:51:56</sys_created_on>
+        <sys_id>0c6474fe474ed110a6b9b6da436d4303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-09-23 18:51:56</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
