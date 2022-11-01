@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Copy of Badge Access Reports">2d0cea9a474e5110a6b9b6da436d4317</catalog_item>
+        <catalog_variable>IO:16172e92474e5110a6b9b6da436d435f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-22 14:17:44</sys_created_on>
+        <sys_id>f90cee9a474e5110a6b9b6da436d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_door_security_templates</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_f90cee9a474e5110a6b9b6da436d4307</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-09-22 14:17:44</sys_updated_on>
+        <table/>
+        <ui_policy display_value="required fields (On load)">350cee9a474e5110a6b9b6da436d4304</ui_policy>
+        <variable>u_door_security_templates</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</application>
+        <file_path/>
+        <instance_id>429f520ddb4bcb40e1b8f897bf961961</instance_id>
+        <instance_name>chwdev</instance_name>
+        <name>catalog_ui_policy_action_f90cee9a474e5110a6b9b6da436d4307</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Copy of Badge Access Reports">2d0cea9a474e5110a6b9b6da436d4317</catalog_item><catalog_variable>IO:16172e92474e5110a6b9b6da436d435f</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>JK236</sys_created_by><sys_created_on>2022-09-22 14:17:44</sys_created_on><sys_id>f90cee9a474e5110a6b9b6da436d4307</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_door_security_templates</sys_name><sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package><sys_policy/><sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope><sys_update_name>catalog_ui_policy_action_f90cee9a474e5110a6b9b6da436d4307</sys_update_name><sys_updated_by>JK236</sys_updated_by><sys_updated_on>2022-09-22 14:17:44</sys_updated_on><table/><ui_policy display_value="required fields (On load)">350cee9a474e5110a6b9b6da436d4304</ui_policy><variable>u_door_security_templates</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>2088326987</payload_hash>
+        <record_name>u_door_security_templates</record_name>
+        <reverted_from/>
+        <source>1a5041191bd28150968db95fdc4bcb01</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-22 14:17:44</sys_created_on>
+        <sys_id>390cee9a474e5110a6b9b6da436d430a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183658fc52b0000001</sys_recorded_at>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-09-22 14:17:44</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>310cee9a174e5110046707a3dd34870a</update_guid>
+        <update_guid_history>310cee9a174e5110046707a3dd34870a:2088326987</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 09/23/2022 10.59.58">d50d4476478ad110a6b9b6da436d434f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-23 15:59:58</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>98d0d38495144493aaa23e195f30be89</sys_id>
+        <sys_metadata>f90cee9a474e5110a6b9b6da436d4307</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_door_security_templates</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_scope_delete display_value="">05aac3463c454d608140da3847f2c024</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_f90cee9a474e5110a6b9b6da436d4307</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_f90cee9a474e5110a6b9b6da436d4307">390cee9a474e5110a6b9b6da436d430a</sys_update_version>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-09-23 15:59:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

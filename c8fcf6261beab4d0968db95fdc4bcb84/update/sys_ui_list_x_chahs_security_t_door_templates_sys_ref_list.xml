@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_chahs_security_t_door_templates" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_chahs_security_t_door_templates" element="NULL" name="x_chahs_security_t_door_templates" parent="NULL" relationship="NULL" sys_domain="global" view="eab52241db030300a8b1a895ca96196c">47d8674b1b36f8948e92777e0a4bcb87</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>JK236</sys_created_by>
+            <sys_created_on>2021-09-29 17:03:44</sys_created_on>
+            <sys_id>0bd8674b1b36f8948e92777e0a4bcb88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>JK236</sys_updated_by>
+            <sys_updated_on>2021-09-29 17:03:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_chahs_security_t_door_templates</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>JK236</sys_created_by>
+            <sys_created_on>2021-09-29 17:03:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47d8674b1b36f8948e92777e0a4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_chahs_security_t_door_templates</sys_name>
+            <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+            <sys_update_name>sys_ui_list_x_chahs_security_t_door_templates_sys_ref_list</sys_update_name>
+            <sys_updated_by>JK236</sys_updated_by>
+            <sys_updated_on>2021-09-29 17:03:44</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">eab52241db030300a8b1a895ca96196c</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

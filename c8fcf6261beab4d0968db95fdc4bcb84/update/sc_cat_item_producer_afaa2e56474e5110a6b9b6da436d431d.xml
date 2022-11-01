@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Hospital Security">457ba3fb97c1951084e275971153af4a</category>
+        <checked_out>false</checked_out>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta>alarm</meta>
+        <mobile_hide_price>true</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Hospital Security Project Request</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>true</no_wishlist_v2>
+        <omit_price>true</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Jeffrey Kucaj">67def77fdbd55300f23def92ca961963</owner>
+        <picture>ae2a83ef478ed510a6b9b6da436d4366</picture>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=afaa2e56474e5110a6b9b6da436d431d&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>catalog_home</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.priority = 3;
+current.state = -5;
+current.description = producer.vs_description;
+
+current.sc_cat_item = producer.sc_cat_item; //Employee Badge Security Modification
+
+var eOpendBy = current.employee = producer.vs_requested_for;
+var eName = current.requested_for = eOpendBy;
+current.cat_item = RP.getParameterValue('sysparm_id');
+current.cmdb_ci = producer.sbm_configuration_item;
+
+//convert the sys_id of the employee field into a user friendly name
+var empName = [];
+var emp = new GlideRecord('sys_user');
+emp.addEncodedQuery('sys_idIN'+ eOpendBy);
+emp.orderBy('name');  //Ascending order
+emp.query();
+while (emp.next()){
+	empName.push('\n' + '  ' + emp.getDisplayValue());
+	current.short_description = 'Project request for: '+ producer.department;
+}
+
+//convert the sys_id of the SBM_Opend_By into a user friendly name
+
+var emp1 = new GlideRecord('sys_user');
+emp1.addQuery('sys_id',eOpendBy);
+emp1.query();
+while (emp1.next());{
+
+	var tname = emp1.first_name;
+}
+
+gs.addInfoMessage("Thank you " +  tname + ", your request " + current.number + " has been submitted.");
+
+producer.portal_redirect ="sp?id=sc_category&sys_id=457ba3fb97c1951084e275971153af4a&catalog_id=-1&spa=1"; // rediret to Hopsital Security category
+//created by Jeff Kucaj 9-19-2021]]></script>
+        <short_description>Request to add a Panic Button, Camera, Card Reader, etc.</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state>published</state>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-22 14:11:51</sys_created_on>
+        <sys_id>afaa2e56474e5110a6b9b6da436d431d</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Hospital Security Project Request</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>sc_cat_item_producer_afaa2e56474e5110a6b9b6da436d431d</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-09-26 19:10:16</sys_updated_on>
+        <table_name>x_chahs_security_t_security_request</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=afaa2e56474e5110a6b9b6da436d431d"/>
+    <fx_price action="delete_multiple" query="id=afaa2e56474e5110a6b9b6da436d431d"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>afaa2e56474e5110a6b9b6da436d431d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-22 14:11:51</sys_created_on>
+        <sys_id>27aa2e56474e5110a6b9b6da436d431f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-09-22 14:11:52</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#dcecf6</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash>73f73b6d8d96646bd1913e7c806176458bcd32a6bfadcd2600cb2227c37cac92</hash>
+        <image_height>150</image_height>
+        <image_width>150</image_width>
+        <size_bytes>4883</size_bytes>
+        <size_compressed>4831</size_compressed>
+        <state>available</state>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-26 13:41:48</sys_created_on>
+        <sys_id>ae2a83ef478ed510a6b9b6da436d4366</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-09-26 13:41:49</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>afaa2e56474e5110a6b9b6da436d431d</table_sys_id>
+        <u_record>afaa2e56474e5110a6b9b6da436d431d</u_record>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="ae2a83ef478ed510a6b9b6da436d4366">ae2a83ef478ed510a6b9b6da436d4366</sys_attachment>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-26 13:41:48</sys_created_on>
+        <sys_id>ee2a83ef478ed510a6b9b6da436d4366</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>6428</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="ae2a83ef478ed510a6b9b6da436d4366">ae2a83ef478ed510a6b9b6da436d4366</sys_attachment>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-26 13:41:48</sys_created_on>
+        <sys_id>622a83ef478ed510a6b9b6da436d4367</sys_id>
+    </sys_attachment_doc>
+</record_update>

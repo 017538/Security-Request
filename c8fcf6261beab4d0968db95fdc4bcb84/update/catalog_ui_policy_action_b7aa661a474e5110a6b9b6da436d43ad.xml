@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Hospital Security Project Request">afaa2e56474e5110a6b9b6da436d431d</catalog_item>
+        <catalog_variable>IO:abaa661a474e5110a6b9b6da436d437f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-22 14:11:52</sys_created_on>
+        <sys_id>b7aa661a474e5110a6b9b6da436d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sbm_opened_by</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b7aa661a474e5110a6b9b6da436d43ad</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-09-22 14:11:52</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hidden fields - On load">3baa661a474e5110a6b9b6da436d43a9</ui_policy>
+        <variable>sbm_opened_by</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

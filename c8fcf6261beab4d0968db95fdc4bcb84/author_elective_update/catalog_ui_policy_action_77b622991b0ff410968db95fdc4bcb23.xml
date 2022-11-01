@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Security Badge Modification">99350a6d1b323814968db95fdc4bcbd3</catalog_item>
+        <catalog_variable>IO:0602107bdb876f80562cfcd6f49619ef</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-10-06 12:01:12</sys_created_on>
+        <sys_id>77b622991b0ff410968db95fdc4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vs_requested_for_location</sys_name>
+        <sys_package display_value="Security Team " source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team ">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_77b622991b0ff410968db95fdc4bcb23</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-10-06 12:01:12</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hidden fields - On load">7e85164f1b7ab8948e92777e0a4bcbf2</ui_policy>
+        <variable>vs_requested_for_location</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</application>
+        <file_path/>
+        <instance_id>429f520ddb4bcb40e1b8f897bf961961</instance_id>
+        <instance_name>chwdev</instance_name>
+        <name>catalog_ui_policy_action_77b622991b0ff410968db95fdc4bcb23</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Security Badge Modification">99350a6d1b323814968db95fdc4bcbd3</catalog_item><catalog_variable>IO:0602107bdb876f80562cfcd6f49619ef</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>JK236</sys_created_by><sys_created_on>2021-10-06 12:01:12</sys_created_on><sys_id>77b622991b0ff410968db95fdc4bcb23</sys_id><sys_mod_count>0</sys_mod_count><sys_name>vs_requested_for_location</sys_name><sys_package display_value="Security Team " source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package><sys_policy/><sys_scope display_value="Security Team ">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope><sys_update_name>catalog_ui_policy_action_77b622991b0ff410968db95fdc4bcb23</sys_update_name><sys_updated_by>JK236</sys_updated_by><sys_updated_on>2021-10-06 12:01:12</sys_updated_on><table/><ui_policy display_value="Hidden fields - On load">7e85164f1b7ab8948e92777e0a4bcbf2</ui_policy><variable>vs_requested_for_location</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1952623243</payload_hash>
+        <record_name>vs_requested_for_location</record_name>
+        <reverted_from/>
+        <source>b32383261b2eb4d0968db95fdc4bcba9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-10-06 12:01:13</sys_created_on>
+        <sys_id>7fb622991b0ff410968db95fdc4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c557aa32d0000001</sys_recorded_at>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-10-06 12:01:13</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>77b622998c0ff4103d5c9314709cff25</update_guid>
+        <update_guid_history>77b622998c0ff4103d5c9314709cff25:1952623243</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">47b3d1b91b0bb810968db95fdc4bcb96</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-10-07 19:15:29</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>4f5074069fe84f0c886d0ac22b05d1e9</sys_id>
+        <sys_metadata>77b622991b0ff410968db95fdc4bcb23</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vs_requested_for_location</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_scope_delete display_value="">05aac3463c454d608140da3847f2c024</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_77b622991b0ff410968db95fdc4bcb23</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_77b622991b0ff410968db95fdc4bcb23">7fb622991b0ff410968db95fdc4bcb25</sys_update_version>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-10-07 19:15:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

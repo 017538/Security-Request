@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_chahs_security_t.Security request fulfiller" name="x_chahs_security_t.Security request fulfiller">968beafc1bfe38548e92777e0a4bcb98</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-09-22 12:52:12</sys_created_on>
+        <sys_id>9a2cee381b3278548e92777e0a4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>968beafc1bfe38548e92777e0a4bcb98</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>sys_embedded_help_role_9a2cee381b3278548e92777e0a4bcbe9</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-09-22 12:52:12</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

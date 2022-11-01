@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Security Badge Modifications">a36d8b381b3678548e92777e0a4bcb10</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-09-22 15:17:34</sys_created_on>
+        <sys_id>6b6d433c1b3678548e92777e0a4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Security Badge Modifications</sys_name>
+        <sys_package display_value="Security Team " source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team ">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_6b6d433c1b3678548e92777e0a4bcb9f</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-09-22 15:17:34</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</application>
+        <file_path/>
+        <instance_id>429f520ddb4bcb40e1b8f897bf961961</instance_id>
+        <instance_name>chwdev</instance_name>
+        <name>sc_cat_item_catalog_6b6d433c1b3678548e92777e0a4bcb9f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Security Badge Modifications">a36d8b381b3678548e92777e0a4bcb10</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>JK236</sys_created_by><sys_created_on>2021-09-22 15:17:34</sys_created_on><sys_id>6b6d433c1b3678548e92777e0a4bcb9f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Security Badge Modifications</sys_name><sys_package display_value="Security Team " source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package><sys_policy/><sys_scope display_value="Security Team ">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope><sys_update_name>sc_cat_item_catalog_6b6d433c1b3678548e92777e0a4bcb9f</sys_update_name><sys_updated_by>JK236</sys_updated_by><sys_updated_on>2021-09-22 15:17:34</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>682011120</payload_hash>
+        <record_name>Service Catalog.Security Badge Modifications</record_name>
+        <reverted_from/>
+        <source>b32383261b2eb4d0968db95fdc4bcba9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-09-22 15:17:34</sys_created_on>
+        <sys_id>a36d433c1b3678548e92777e0a4bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c0e1560090000001</sys_recorded_at>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-09-22 15:17:34</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>e76d433cee3678547100521e07f1eba1</update_guid>
+        <update_guid_history>e76d433cee3678547100521e07f1eba1:682011120</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ce8dc73c1b3678548e92777e0a4bcbf3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-09-22 15:18:01</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>10d202a0ae3547b88c47b3cb00fc3961</sys_id>
+        <sys_metadata>6b6d433c1b3678548e92777e0a4bcb9f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Security Badge Modifications</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_scope_delete display_value="">05aac3463c454d608140da3847f2c024</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_6b6d433c1b3678548e92777e0a4bcb9f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_6b6d433c1b3678548e92777e0a4bcb9f">a36d433c1b3678548e92777e0a4bcba2</sys_update_version>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-09-22 15:18:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true,email_client=true" audit="true" extends="task" label="Security Request" max_length="40" name="x_chahs_security_t_security_request" sizeclass="39" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Item" max_length="32" name="cat_item" reference="sc_cat_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Requested for" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Door security templates" max_length="1024" name="u_door_security_templates" reference="sys_choice" reference_qual="element=u_door_security_templates^element=u_door_security_templates^name=x_chahs_security_t_security_request^inactive=false" reference_qual_condition="element=u_door_security_templates^element=u_door_security_templates^name=x_chahs_security_t_security_request^inactive=false" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Child Life North tower" sequence="0" value="child life north tower"/>
+                <element inactive_on_update="false" label="Construction" sequence="0" value="construction"/>
+                <element inactive_on_update="false" label="CSSW Access" sequence="0" value="cssw_access"/>
+                <element inactive_on_update="false" label="Environmental" sequence="0" value="environmental"/>
+                <element inactive_on_update="false" label="Facilities" sequence="0" value="facilities"/>
+                <element inactive_on_update="false" label="Food Services" sequence="0" value="food services"/>
+                <element inactive_on_update="false" label="Imaging" sequence="0" value="imaging"/>
+                <element inactive_on_update="false" label="Information Technology" sequence="0" value="informationt Technology"/>
+                <element inactive_on_update="false" label="Main Campus General Access" sequence="0" value="main campus general access"/>
+                <element inactive_on_update="false" label="Med Rooms Main Campus" sequence="0" value="med rooms main campus"/>
+                <element inactive_on_update="false" label="Med Rooms Offsite" sequence="0" value="med rooms offsite"/>
+                <element inactive_on_update="false" label="MNT PTOT" sequence="0" value="mnt ptot"/>
+                <element inactive_on_update="false" label="Offsite Clinics General Access" sequence="0" value="offsite clinics general access"/>
+                <element inactive_on_update="false" label="Skywalk Pharmacy 24/7" sequence="0" value="skywalk pharmacy 24_7"/>
+                <element inactive_on_update="false" label="Skywalk Pharmacy Arm/Disarm" sequence="0" value="skywalk pharmacy arm disarm"/>
+                <element inactive_on_update="false" label="Supply Chain" sequence="0" value="supply chain"/>
+                <element inactive_on_update="false" label="VP/AOC" sequence="0" value="vp_aoc"/>
+                <element inactive_on_update="false" label="VTI Security" sequence="0" value="vti security"/>
+                <element inactive_on_update="false" label="Warehouse" sequence="0" value="warehouse"/>
+            </choice>
+        </element>
+    </element>
+</database>

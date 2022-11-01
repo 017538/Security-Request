@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Hospital Security">457ba3fb97c1951084e275971153af4a</category>
+        <checked_out>false</checked_out>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>true</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Door Schedule Adjustment</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>true</no_wishlist_v2>
+        <omit_price>true</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Jeffrey Kucaj">67def77fdbd55300f23def92ca961963</owner>
+        <picture>5f33fa2b474ed510a6b9b6da436d4321</picture>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=5617ae12474e5110a6b9b6da436d437b&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.priority = 3;
+current.state = -5;
+current.description = producer.vs_description;
+
+current.sc_cat_item = producer.sc_cat_item; //Employee Badge Security Modification
+
+var eOpendBy = current.employee = producer.vs_requested_for;
+var eName = current.requested_for = eOpendBy;
+current.cat_item = RP.getParameterValue('sysparm_id');
+current.cmdb_ci = producer.sbm_configuration_item;
+
+//convert the sys_id of the employee field into a user friendly name
+var empName = [];
+var emp = new GlideRecord('sys_user');
+emp.addEncodedQuery('sys_idIN'+ eOpendBy);
+emp.orderBy('name');  //Ascending order
+emp.query();
+while (emp.next()){
+	empName.push('\n' + '  ' + emp.getDisplayValue());
+	current.short_description = 'Door schedule adjustment requested for: '  + empName ;
+}
+
+//convert the sys_id of the SBM_Opend_By into a user friendly name
+
+var emp1 = new GlideRecord('sys_user');
+emp1.addQuery('sys_id',eOpendBy);
+emp1.query();
+while (emp1.next());{
+
+	var tname = emp1.first_name;
+}
+
+gs.addInfoMessage("Thank you " +  tname + ", your request " + current.number + " has been submitted.");
+
+producer.portal_redirect ="sp?id=sc_category&sys_id=457ba3fb97c1951084e275971153af4a&catalog_id=-1&spa=1"; // rediret to Hopsital Security category
+
+//created by Jeff Kucaj 9-19-2021]]></script>
+        <short_description>Request to modify normal door schedule(s) for holidays or other events.</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state>published</state>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-22 13:56:12</sys_created_on>
+        <sys_id>5617ae12474e5110a6b9b6da436d437b</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Door Schedule Adjustment</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>sc_cat_item_producer_5617ae12474e5110a6b9b6da436d437b</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-09-27 13:36:12</sys_updated_on>
+        <table_name>x_chahs_security_t_security_request</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=5617ae12474e5110a6b9b6da436d437b"/>
+    <fx_price action="delete_multiple" query="id=5617ae12474e5110a6b9b6da436d437b"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>5617ae12474e5110a6b9b6da436d437b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-22 13:56:12</sys_created_on>
+        <sys_id>1e17ae12474e5110a6b9b6da436d437f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-09-22 13:56:14</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#add3ea</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash>ebba96f91028c94015afd0eec9a3074b97208467038e2b8bd895efebbd55bad3</hash>
+        <image_height>150</image_height>
+        <image_width>150</image_width>
+        <size_bytes>6292</size_bytes>
+        <size_compressed>6176</size_compressed>
+        <state>available</state>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-26 12:01:39</sys_created_on>
+        <sys_id>5f33fa2b474ed510a6b9b6da436d4321</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-09-26 12:01:39</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>5617ae12474e5110a6b9b6da436d437b</table_sys_id>
+        <u_record>5617ae12474e5110a6b9b6da436d437b</u_record>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="5f33fa2b474ed510a6b9b6da436d4321">5f33fa2b474ed510a6b9b6da436d4321</sys_attachment>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-26 12:01:39</sys_created_on>
+        <sys_id>9f33fa2b474ed510a6b9b6da436d4321</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>8224</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="5f33fa2b474ed510a6b9b6da436d4321">5f33fa2b474ed510a6b9b6da436d4321</sys_attachment>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-26 12:01:39</sys_created_on>
+        <sys_id>1333fa2b474ed510a6b9b6da436d4322</sys_id>
+    </sys_attachment_doc>
+</record_update>

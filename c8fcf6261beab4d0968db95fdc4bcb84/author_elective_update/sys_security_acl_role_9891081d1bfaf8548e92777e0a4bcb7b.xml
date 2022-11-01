@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-09-23 13:43:50</sys_created_on>
+        <sys_id>9891081d1bfaf8548e92777e0a4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>null.assigned_to.x_chahs_security_t.security_request_user</sys_name>
+        <sys_package display_value="Security Team " source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team ">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_security_acl display_value="null.assigned_to">9491c4991bfaf8548e92777e0a4bcbdb</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_9891081d1bfaf8548e92777e0a4bcb7b</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-09-23 13:43:50</sys_updated_on>
+        <sys_user_role display_value="x_chahs_security_t.security_request_user" name="x_chahs_security_t.security_request_user">904d76ea1beab4d0968db95fdc4bcb25</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</application>
+        <file_path/>
+        <instance_id>429f520ddb4bcb40e1b8f897bf961961</instance_id>
+        <instance_name>chwdev</instance_name>
+        <name>sys_security_acl_role_9891081d1bfaf8548e92777e0a4bcb7b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>JK236</sys_created_by><sys_created_on>2021-09-23 13:43:50</sys_created_on><sys_id>9891081d1bfaf8548e92777e0a4bcb7b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>null.assigned_to.x_chahs_security_t.security_request_user</sys_name><sys_package display_value="Security Team " source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package><sys_policy/><sys_scope display_value="Security Team ">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope><sys_security_acl display_value="null.assigned_to">9491c4991bfaf8548e92777e0a4bcbdb</sys_security_acl><sys_update_name>sys_security_acl_role_9891081d1bfaf8548e92777e0a4bcb7b</sys_update_name><sys_updated_by>JK236</sys_updated_by><sys_updated_on>2021-09-23 13:43:50</sys_updated_on><sys_user_role display_value="x_chahs_security_t.security_request_user" name="x_chahs_security_t.security_request_user">904d76ea1beab4d0968db95fdc4bcb25</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1186095529</payload_hash>
+        <record_name>null.assigned_to.x_chahs_security_t.security_request_user</record_name>
+        <reverted_from/>
+        <source>b32383261b2eb4d0968db95fdc4bcba9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-09-23 13:43:50</sys_created_on>
+        <sys_id>5091081d1bfaf8548e92777e0a4bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c12e5ea990000001</sys_recorded_at>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-09-23 13:43:50</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>5891081d6bfaf8548d207f0e75330b7e</update_guid>
+        <update_guid_history>5891081d6bfaf8548d207f0e75330b7e:-1186095529</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c19108591bfaf8548e92777e0a4bcbda</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-09-23 13:43:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>5d70186c952c49c489b5c9b89d6905e1</sys_id>
+        <sys_metadata>9891081d1bfaf8548e92777e0a4bcb7b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>null.assigned_to.x_chahs_security_t.security_request_user</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_parent display_value="">9491c4991bfaf8548e92777e0a4bcbdb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_scope_delete display_value="">05aac3463c454d608140da3847f2c024</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_9891081d1bfaf8548e92777e0a4bcb7b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_9891081d1bfaf8548e92777e0a4bcb7b">5091081d1bfaf8548e92777e0a4bcb7f</sys_update_version>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-09-23 13:43:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
