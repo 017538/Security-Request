@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Activate/Deactivate Badge">2d0cea9a474e5110a6b9b6da436d4317</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-11-14 13:49:25</sys_created_on>
+        <sys_id>6fc1e31b978f155084e275971153af12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Activate/Deactivate Badge.Hospital Security  user exception list</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_6fc1e31b978f155084e275971153af12</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-11-14 13:49:25</sys_updated_on>
+        <user_criteria display_value="Hospital Security  user exception list">a6ff97531bc31dd0bf2455b5604bcb05</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>
