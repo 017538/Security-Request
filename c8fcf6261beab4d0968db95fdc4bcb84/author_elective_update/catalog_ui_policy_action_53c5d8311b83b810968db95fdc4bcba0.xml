@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Employee Badge Security Modification">99350a6d1b323814968db95fdc4bcbd3</catalog_item>
+        <catalog_variable>IO:e3635d391b0bb810968db95fdc4bcb91</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-10-07 14:45:16</sys_created_on>
+        <sys_id>53c5d8311b83b810968db95fdc4bcba0</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>sbm_opened_by</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_53c5d8311b83b810968db95fdc4bcba0</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-12-20 19:12:30</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hidden fields - On load">7e85164f1b7ab8948e92777e0a4bcbf2</ui_policy>
+        <variable>sbm_opened_by</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</application>
+        <file_path/>
+        <instance_id>429f520ddb4bcb40e1b8f897bf961961</instance_id>
+        <instance_name>chwdev</instance_name>
+        <name>catalog_ui_policy_action_53c5d8311b83b810968db95fdc4bcba0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Employee Badge Security Modification">99350a6d1b323814968db95fdc4bcbd3</catalog_item>
+        <catalog_variable>IO:e3635d391b0bb810968db95fdc4bcb91</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2021-10-07 14:45:16</sys_created_on>
+        <sys_id>53c5d8311b83b810968db95fdc4bcba0</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>sbm_opened_by</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_53c5d8311b83b810968db95fdc4bcba0</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2021-12-20 19:12:30</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hidden fields - On load">7e85164f1b7ab8948e92777e0a4bcbf2</ui_policy>
+        <variable>sbm_opened_by</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>1075555625</payload_hash>
+        <record_name>sbm_opened_by</record_name>
+        <reverted_from/>
+        <source>86af8717974f155084e275971153af4d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-11-14 12:30:17</sys_created_on>
+        <sys_id>fcbfcb17974f155084e275971153afd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184761e73220000001</sys_recorded_at>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-11-14 12:30:17</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>bcbfcb174e4f1550e3a9f5b2600d0dd5</update_guid>
+        <update_guid_history>bcbfcb174e4f1550e3a9f5b2600d0dd5:1075555625</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 11/14/2022 06.30.51">45df4fdf47cfd150a6b9b6da436d43d4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-14 12:30:51</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>0722828ecb2c4cb0804576728ba62cc4</sys_id>
+        <sys_metadata>53c5d8311b83b810968db95fdc4bcba0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sbm_opened_by</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_scope_delete display_value="">05aac3463c454d608140da3847f2c024</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_53c5d8311b83b810968db95fdc4bcba0</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_53c5d8311b83b810968db95fdc4bcba0">fcbfcb17974f155084e275971153afd5</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-14 12:30:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

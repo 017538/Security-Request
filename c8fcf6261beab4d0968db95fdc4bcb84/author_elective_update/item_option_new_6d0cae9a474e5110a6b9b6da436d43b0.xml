@@ -159,7 +159,7 @@
         <update_guid_history>d0dc6b62e5c6d1109fe3e0c8c6e32f5d:-1100261331,ed0cae9ab64e5110136f7ea404e0cbb5:-1086473441</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 09/26/2022 06.11.53">2ed722af470ed510a6b9b6da436d4340</sys_audit_delete>
+        <sys_audit_delete display_value="">2ed722af470ed510a6b9b6da436d4340</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>JK236</sys_created_by>
         <sys_created_on>2022-09-26 11:11:53</sys_created_on>

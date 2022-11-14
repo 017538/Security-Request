@@ -156,7 +156,7 @@
         <update_guid_history>525ccdd8b8de91d042635f41637e396d:652275545,703c0dd81dde91d0f7a711f2bdd9d5e1:1372170163,5dd9815841de91d06e29dbcea2bf2417:652275545,8339c5182dde91d0b91a91d02ded3b91:2058743208</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 09/30/2022 07.49.36">7094ebf897d695d084e275971153afc6</sys_audit_delete>
+        <sys_audit_delete display_value="">7094ebf897d695d084e275971153afc6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>JK236</sys_created_by>
         <sys_created_on>2022-09-30 12:49:36</sys_created_on>

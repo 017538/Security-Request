@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Hospital Security Project Request">afaa2e56474e5110a6b9b6da436d431d</catalog_item>
+        <catalog_variable>IO:66172e92474e5110a6b9b6da436d437a</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-22 14:11:52</sys_created_on>
+        <sys_id>7faa661a474e5110a6b9b6da436d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sbm_requested_for</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_7faa661a474e5110a6b9b6da436d43bb</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-09-22 14:11:52</sys_updated_on>
+        <table/>
+        <ui_policy display_value="required fields (On load)">bfaa661a474e5110a6b9b6da436d43b4</ui_policy>
+        <variable>sbm_requested_for</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</application>
+        <file_path/>
+        <instance_id>429f520ddb4bcb40e1b8f897bf961961</instance_id>
+        <instance_name>chwdev</instance_name>
+        <name>catalog_ui_policy_action_7faa661a474e5110a6b9b6da436d43bb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Hospital Security Project Request">afaa2e56474e5110a6b9b6da436d431d</catalog_item>
+        <catalog_variable>IO:66172e92474e5110a6b9b6da436d437a</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-22 14:11:52</sys_created_on>
+        <sys_id>7faa661a474e5110a6b9b6da436d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sbm_requested_for</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_7faa661a474e5110a6b9b6da436d43bb</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-09-22 14:11:52</sys_updated_on>
+        <table/>
+        <ui_policy display_value="required fields (On load)">bfaa661a474e5110a6b9b6da436d43b4</ui_policy>
+        <variable>sbm_requested_for</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>309349967</payload_hash>
+        <record_name>sbm_requested_for</record_name>
+        <reverted_from/>
+        <source>86af8717974f155084e275971153af4d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-11-14 12:30:18</sys_created_on>
+        <sys_id>f4bfcb17974f155084e275971153aff3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184761e73c30000001</sys_recorded_at>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-11-14 12:30:18</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>b4bfcb176b4f1550f020a2d9118cb1f3</update_guid>
+        <update_guid_history>b4bfcb176b4f1550f020a2d9118cb1f3:309349967</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 11/14/2022 06.30.50">78df4fdf47cfd150a6b9b6da436d438d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-14 12:30:50</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>72832d24226d4289bbee01a44d979bd9</sys_id>
+        <sys_metadata>7faa661a474e5110a6b9b6da436d43bb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sbm_requested_for</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_scope_delete display_value="">05aac3463c454d608140da3847f2c024</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_7faa661a474e5110a6b9b6da436d43bb</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_7faa661a474e5110a6b9b6da436d43bb">f4bfcb17974f155084e275971153aff3</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-14 12:30:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

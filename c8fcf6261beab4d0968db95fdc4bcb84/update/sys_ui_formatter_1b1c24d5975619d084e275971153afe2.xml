@@ -4,6 +4,7 @@
         <angular_module/>
         <formatter>com_glideapp_questionset_default_question_editor</formatter>
         <name>Hospital security varaiable formatter</name>
+        <seismic_component/>
         <sys_class_name>sys_ui_formatter</sys_class_name>
         <sys_created_by>JK236</sys_created_by>
         <sys_created_on>2022-10-01 12:46:01</sys_created_on>
