@@ -95,7 +95,7 @@ while (emp1.next());{
 
 gs.addInfoMessage("Thank you " +  tname + ", your request " + current.number + " has been submitted.");
 
-producer.portal_redirect ="?id=sc_category&catalog_id=d470a6b4477c251097118702e26d43c7"; // rediret to Hopsital Security category
+ producer.portal_redirect ="?id=sc_category&catalog_id=d470a6b4477c251097118702e26d43c7"; // rediret to Hopsital Security category
 
 //created by Jeff Kucaj 9-19-2021]]></script>
         <short_description>Request to review video for incidents such as Theft, Slip Trip Falls, etc.</short_description>
@@ -106,14 +106,14 @@ producer.portal_redirect ="?id=sc_category&catalog_id=d470a6b4477c251097118702e2
         <sys_created_by>JK236</sys_created_by>
         <sys_created_on>2022-09-22 14:19:27</sys_created_on>
         <sys_id>3a6cee9a474e5110a6b9b6da436d4323</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Video Review</sys_name>
         <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
         <sys_policy/>
         <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
         <sys_update_name>sc_cat_item_producer_3a6cee9a474e5110a6b9b6da436d4323</sys_update_name>
         <sys_updated_by>JK236</sys_updated_by>
-        <sys_updated_on>2023-04-03 20:16:00</sys_updated_on>
+        <sys_updated_on>2023-04-03 21:05:31</sys_updated_on>
         <table_name>x_chahs_security_t_security_request</table_name>
         <taxonomy_topic/>
         <template/>

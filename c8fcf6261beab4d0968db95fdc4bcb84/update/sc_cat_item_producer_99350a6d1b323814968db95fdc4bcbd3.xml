@@ -107,7 +107,7 @@ while (emp1.next());{
 
 gs.addInfoMessage("Thank you " +  tname + ", your request " + current.number + " has been submitted.");
 
-producer.portal_redirect ="?id=sc_category&catalog_id=d470a6b4477c251097118702e26d43c7";
+ producer.portal_redirect ="?id=sc_category&catalog_id=d470a6b4477c251097118702e26d43c7";
 
 //created by Jeff Kucaj 9-19-2021]]></script>
         <short_description>Create a Security Request for modifying an employee's security door access.  </short_description>
@@ -118,14 +118,14 @@ producer.portal_redirect ="?id=sc_category&catalog_id=d470a6b4477c251097118702e2
         <sys_created_by>JK236</sys_created_by>
         <sys_created_on>2021-09-24 18:54:09</sys_created_on>
         <sys_id>99350a6d1b323814968db95fdc4bcbd3</sys_id>
-        <sys_mod_count>196</sys_mod_count>
+        <sys_mod_count>198</sys_mod_count>
         <sys_name>Employee Badge Security Modification</sys_name>
         <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
         <sys_policy/>
         <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
         <sys_update_name>sc_cat_item_producer_99350a6d1b323814968db95fdc4bcbd3</sys_update_name>
         <sys_updated_by>JK236</sys_updated_by>
-        <sys_updated_on>2023-04-03 20:15:23</sys_updated_on>
+        <sys_updated_on>2023-04-03 21:05:49</sys_updated_on>
         <table_name>x_chahs_security_t_security_request</table_name>
         <taxonomy_topic/>
         <template/>
