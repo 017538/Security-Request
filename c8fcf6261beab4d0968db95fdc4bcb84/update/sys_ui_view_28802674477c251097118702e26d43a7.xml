@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>catalog_hospital_security</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>JL382</sys_created_by>
+        <sys_created_on>2023-02-01 14:29:10</sys_created_on>
+        <sys_id>28802674477c251097118702e26d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hospital Security View</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>sys_ui_view_28802674477c251097118702e26d43a7</sys_update_name>
+        <sys_updated_by>JL382</sys_updated_by>
+        <sys_updated_on>2023-02-01 14:29:10</sys_updated_on>
+        <title>Hospital Security View</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

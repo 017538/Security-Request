@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color>white</background_color>
+        <description/>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image/>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager/>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>JL382</sys_created_by>
+        <sys_created_on>2023-02-01 14:29:10</sys_created_on>
+        <sys_id>d470a6b4477c251097118702e26d43c7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Hospital Security</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>sc_catalog_d470a6b4477c251097118702e26d43c7</sys_update_name>
+        <sys_updated_by>JL382</sys_updated_by>
+        <sys_updated_on>2023-02-28 14:13:21</sys_updated_on>
+        <title>Hospital Security</title>
+    </sc_catalog>
+    <sys_translated_text action="delete_multiple" query="documentkey=d470a6b4477c251097118702e26d43c7"/>
+</record_update>
