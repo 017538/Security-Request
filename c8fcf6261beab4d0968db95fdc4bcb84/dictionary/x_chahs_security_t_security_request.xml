@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="hasLabels=true,email_client=true" audit="true" extends="task" label="Security Request" max_length="40" name="x_chahs_security_t_security_request" sizeclass="12" type="collection">
+    <element attributes="hasLabels=true,email_client=true" audit="true" extends="task" label="Security Request" max_length="40" name="x_chahs_security_t_security_request" sizeclass="28" type="collection">
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Item" max_length="32" name="cat_item" reference="sc_cat_item" type="reference"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Requested for" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Door security templates" max_length="1024" name="u_door_security_templates" reference="sys_choice" reference_qual="element=u_door_security_templates^element=u_door_security_templates^name=x_chahs_security_t_security_request^inactive=false" reference_qual_condition="element=u_door_security_templates^element=u_door_security_templates^name=x_chahs_security_t_security_request^inactive=false" type="glide_list">

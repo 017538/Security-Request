@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Video Review">3a6cee9a474e5110a6b9b6da436d4323</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-22 14:19:27</sys_created_on>
+        <sys_id>fe6cee9a474e5110a6b9b6da436d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Copy of Activate/Deactivate Badge</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_fe6cee9a474e5110a6b9b6da436d4325</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-09-22 14:19:27</sys_updated_on>
+    </sc_cat_item_catalog>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</application>
+        <file_path/>
+        <instance_id>429f520ddb4bcb40e1b8f897bf961961</instance_id>
+        <instance_name>chwdev</instance_name>
+        <name>sc_cat_item_catalog_fe6cee9a474e5110a6b9b6da436d4325</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Video Review">3a6cee9a474e5110a6b9b6da436d4323</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-09-22 14:19:27</sys_created_on>
+        <sys_id>fe6cee9a474e5110a6b9b6da436d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Copy of Activate/Deactivate Badge</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_fe6cee9a474e5110a6b9b6da436d4325</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-09-22 14:19:27</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>]]></payload>
+        <payload_hash>63789406</payload_hash>
+        <record_name>Service Catalog.Copy of Activate/Deactivate Badge</record_name>
+        <reverted_from/>
+        <source>86af8717974f155084e275971153af4d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2022-11-14 12:30:26</sys_created_on>
+        <sys_id>babf0357974f155084e275971153af5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184761e95230000001</sys_recorded_at>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2022-11-14 12:30:26</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>7abf0357a34f1550949a815c39956f5c</update_guid>
+        <update_guid_history>7abf0357a34f1550949a815c39956f5c:63789406</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 02/01/2023 08.30.03">d1b062f4477c251097118702e26d4392</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>JL382</sys_created_by>
+        <sys_created_on>2023-02-01 14:30:03</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>10f9cbd1204d47c29fe0c56e73143f84</sys_id>
+        <sys_metadata>fe6cee9a474e5110a6b9b6da436d4325</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Copy of Activate/Deactivate Badge</sys_name>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_parent display_value="Video Review">3a6cee9a474e5110a6b9b6da436d4323</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_scope_delete display_value="">05aac3463c454d608140da3847f2c024</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_fe6cee9a474e5110a6b9b6da436d4325</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_fe6cee9a474e5110a6b9b6da436d4325">babf0357974f155084e275971153af5c</sys_update_version>
+        <sys_updated_by>JL382</sys_updated_by>
+        <sys_updated_on>2023-02-01 14:30:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

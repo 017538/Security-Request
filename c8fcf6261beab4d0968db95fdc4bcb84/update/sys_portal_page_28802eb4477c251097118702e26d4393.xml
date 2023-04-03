@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2023-04-03 19:19:57">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>JL382</sys_created_by>
+        <sys_created_on>2023-02-01 14:29:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28802eb4477c251097118702e26d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>catalog_hospital_security</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>sys_portal_page_28802eb4477c251097118702e26d4393</sys_update_name>
+        <sys_updated_by>JL382</sys_updated_by>
+        <sys_updated_on>2023-02-01 14:29:10</sys_updated_on>
+        <title>catalog_hospital_security</title>
+        <user/>
+        <view>catalog_hospital_security</view>
+    </sys_portal_page>
+</record_update>
