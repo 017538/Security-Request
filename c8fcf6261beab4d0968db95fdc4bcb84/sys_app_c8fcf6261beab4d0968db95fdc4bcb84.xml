@@ -22,16 +22,16 @@
         <scoped_administration>false</scoped_administration>
         <short_description>Safety and security services</short_description>
         <source>x_chahs_security_t</source>
-        <store_correlation_id>REPOAPP0000843865</store_correlation_id>
+        <store_correlation_id>REPOAPP0000843873</store_correlation_id>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>jonathan.lo@snc</sys_created_by>
         <sys_created_on>2021-12-07 19:16:12</sys_created_on>
         <sys_id>c8fcf6261beab4d0968db95fdc4bcb84</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_updated_by>JK236</sys_updated_by>
-        <sys_updated_on>2023-04-03 19:40:12</sys_updated_on>
+        <sys_updated_on>2023-04-03 19:40:40</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
