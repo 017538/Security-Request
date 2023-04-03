@@ -29,15 +29,15 @@
         <sys_created_by>jonathan.lo@snc</sys_created_by>
         <sys_created_on>2021-12-07 19:16:12</sys_created_on>
         <sys_id>c8fcf6261beab4d0968db95fdc4bcb84</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_updated_by>JK236</sys_updated_by>
-        <sys_updated_on>2023-04-03 19:40:40</sys_updated_on>
+        <sys_updated_on>2023-04-03 20:20:33</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor>Children's Hospital and Health System In</vendor>
         <vendor_prefix/>
-        <version>2.2.0</version>
+        <version>2.2.1</version>
     </sys_app>
 </record_update>
