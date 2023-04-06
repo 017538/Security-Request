@@ -5,7 +5,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <category display_value="Public Safety" name="Public Safety">e9a5d97d1b0bb810968db95fdc4bcb80</category>
         <collection>x_chahs_security_t_security_request</collection>
         <condition table="x_chahs_security_t_security_request">assigned_toISEMPTY^assignment_groupVALCHANGES^assignment_groupISNOTEMPTY^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
             <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
@@ -18,9 +18,9 @@
         <digest_from/>
         <digest_html/>
         <digest_reply_to/>
-        <digest_separator_html><![CDATA[<p><br /></p>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
 <hr />
-<p><br /></p>]]></digest_separator_html>
+<p>&nbsp;</p>]]></digest_separator_html>
         <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
         <digest_subject/>
         <digest_template/>
@@ -91,7 +91,7 @@
 </tbody>
 </table>
 </div>
-<div><br /></div>]]></message_html>
+<div>&nbsp;</div>]]></message_html>
         <message_list/>
         <message_text/>
         <name>CW HospSecurity Req assigned to my group</name>
@@ -105,7 +105,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Security ticket ${number} has been assigned to ${assignment_group}</subject>
+        <subject>Public Safety ticket ${number} has been assigned to ${assignment_group}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>JK236</sys_created_by>
@@ -113,15 +113,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0bf726541b1f70908e92777e0a4bcbbb</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>CW HospSecurity Req assigned to my group</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_package display_value="Public Safety" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_scope display_value="Public Safety">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
         <sys_update_name>sysevent_email_action_0bf726541b1f70908e92777e0a4bcbbb</sys_update_name>
         <sys_updated_by>JK236</sys_updated_by>
-        <sys_updated_on>2021-11-16 19:20:21</sys_updated_on>
+        <sys_updated_on>2023-04-06 15:45:30</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

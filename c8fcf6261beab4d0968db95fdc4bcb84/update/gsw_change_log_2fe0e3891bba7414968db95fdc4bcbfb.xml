@@ -11,9 +11,9 @@
         <sys_id>2fe0e3891bba7414968db95fdc4bcbfb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>2021-09-23 11:21:14</sys_name>
-        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_package display_value="Public Safety" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_scope display_value="Public Safety">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
         <sys_update_name>gsw_change_log_2fe0e3891bba7414968db95fdc4bcbfb</sys_update_name>
         <sys_updated_by>JK236</sys_updated_by>
         <sys_updated_on>2021-09-23 11:21:14</sys_updated_on>

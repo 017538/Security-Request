@@ -5,7 +5,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Hospital Security" name="Hospital Security">e9a5d97d1b0bb810968db95fdc4bcb80</category>
+        <category display_value="Public Safety" name="Public Safety">e9a5d97d1b0bb810968db95fdc4bcb80</category>
         <collection>x_chahs_security_t_security_request</collection>
         <condition table="x_chahs_security_t_security_request">activeCHANGESTOfalse^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="CHANGESTO" or="false" value="false"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
@@ -96,7 +96,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Your  security request ${number} has been completed (${state})</subject>
+        <subject>Your ${cat_item.name} request ${number} has been completed (${state})</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>JK236</sys_created_by>
@@ -104,15 +104,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f2f4993d1b0bb810968db95fdc4bcba9</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>CW Security Request Closed</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_package display_value="Public Safety" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_scope display_value="Public Safety">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
         <sys_update_name>sysevent_email_action_f2f4993d1b0bb810968db95fdc4bcba9</sys_update_name>
         <sys_updated_by>JK236</sys_updated_by>
-        <sys_updated_on>2022-10-03 18:17:56</sys_updated_on>
+        <sys_updated_on>2023-04-06 15:39:22</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

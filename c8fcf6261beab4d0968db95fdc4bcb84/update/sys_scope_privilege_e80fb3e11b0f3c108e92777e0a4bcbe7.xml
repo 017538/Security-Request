@@ -9,9 +9,9 @@
         <sys_id>e80fb3e11b0f3c108e92777e0a4bcbe7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Glide API: user roles and groups</sys_name>
-        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_package display_value="Public Safety" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_scope display_value="Public Safety">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
         <sys_update_name>sys_scope_privilege_e80fb3e11b0f3c108e92777e0a4bcbe7</sys_update_name>
         <sys_updated_by>DG256</sys_updated_by>
         <sys_updated_on>2021-10-07 13:05:19</sys_updated_on>

@@ -189,7 +189,7 @@
             <sys_created_on>2022-10-01 13:16:21</sys_created_on>
             <sys_id>16447011979619d084e275971153afbc</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter display_value="Hospital security varaiable formatter">1b1c24d5975619d084e275971153afe2</sys_ui_formatter>
+            <sys_ui_formatter display_value="Public Safety varaiable formatter">1b1c24d5975619d084e275971153afe2</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_chahs_security_t_security_request" sys_domain="global" view="Default view">5592c3e21b2eb4d0968db95fdc4bcb52</sys_ui_section>
             <sys_updated_by>JK236</sys_updated_by>
             <sys_updated_on>2022-10-01 13:16:21</sys_updated_on>
@@ -210,9 +210,9 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_chahs_security_t_security_request</sys_name>
             <sys_overrides/>
-            <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+            <sys_package display_value="Public Safety" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+            <sys_scope display_value="Public Safety">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
             <sys_update_name>sys_ui_section_5592c3e21b2eb4d0968db95fdc4bcb52</sys_update_name>
             <sys_updated_by>JK236</sys_updated_by>
             <sys_updated_on>2021-09-15 14:43:51</sys_updated_on>

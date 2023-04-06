@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
     <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
         <default>true</default>
-        <sc_catalog display_value="Hospital Security">d470a6b4477c251097118702e26d43c7</sc_catalog>
+        <sc_catalog display_value="Public Safety">d470a6b4477c251097118702e26d43c7</sc_catalog>
         <sys_class_name>sc_catalog_view_mtom</sys_class_name>
         <sys_created_by>JL382</sys_created_by>
         <sys_created_on>2023-02-01 14:29:10</sys_created_on>
         <sys_id>60802eb4477c251097118702e26d4395</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Hospital Security.catalog_hospital_security</sys_name>
-        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_package display_value="Public Safety" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
         <sys_policy/>
         <sys_portal_page display_value="catalog_hospital_security">28802eb4477c251097118702e26d4393</sys_portal_page>
-        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_scope display_value="Public Safety">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
         <sys_update_name>sc_catalog_view_mtom_60802eb4477c251097118702e26d4395</sys_update_name>
         <sys_updated_by>JL382</sys_updated_by>
         <sys_updated_on>2023-02-01 14:29:10</sys_updated_on>

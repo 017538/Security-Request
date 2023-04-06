@@ -97,7 +97,7 @@ while (emp1.next());{
 
 gs.addInfoMessage("Thank you " +  tname + ", your request " + current.number + " has been submitted.");
 
- producer.portal_redirect ="?id=sc_category&catalog_id=d470a6b4477c251097118702e26d43c7"; // rediret to Hopsital Security category
+ producer.portal_redirect ="?id=sc_category&catalog_id=d470a6b4477c251097118702e26d43c7"; // rediret to Public Safety category
 
 //created by Jeff Kucaj 9-19-2021]]></script>
         <short_description>Request for Access Events for a specific door/person.</short_description>
@@ -108,14 +108,14 @@ gs.addInfoMessage("Thank you " +  tname + ", your request " + current.number + "
         <sys_created_by>JK236</sys_created_by>
         <sys_created_on>2022-09-22 14:15:45</sys_created_on>
         <sys_id>e49bee5a474e5110a6b9b6da436d433e</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Badge Access Reports</sys_name>
-        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_package display_value="Public Safety" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_scope display_value="Public Safety">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
         <sys_update_name>sc_cat_item_producer_e49bee5a474e5110a6b9b6da436d433e</sys_update_name>
         <sys_updated_by>JK236</sys_updated_by>
-        <sys_updated_on>2023-04-03 21:01:26</sys_updated_on>
+        <sys_updated_on>2023-04-06 15:42:21</sys_updated_on>
         <table_name>x_chahs_security_t_security_request</table_name>
         <taxonomy_topic/>
         <template/>

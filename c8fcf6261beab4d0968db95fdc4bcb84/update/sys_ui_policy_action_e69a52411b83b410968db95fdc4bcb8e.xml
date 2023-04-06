@@ -10,14 +10,14 @@
         <sys_id>e69a52411b83b410968db95fdc4bcb8e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>requested_for</sys_name>
-        <sys_package display_value="Security Team" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_package display_value="Public Safety" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Security Team">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_scope display_value="Public Safety">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
         <sys_update_name>sys_ui_policy_action_e69a52411b83b410968db95fdc4bcb8e</sys_update_name>
         <sys_updated_by>JK236</sys_updated_by>
         <sys_updated_on>2021-10-05 16:29:41</sys_updated_on>
         <table>x_chahs_security_t_security_request</table>
-        <ui_policy display_value="Security Request (Mandatory)">f05a1a011b83b410968db95fdc4bcbcd</ui_policy>
+        <ui_policy display_value="Public Safety (Mandatory)">f05a1a011b83b410968db95fdc4bcbcd</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>
