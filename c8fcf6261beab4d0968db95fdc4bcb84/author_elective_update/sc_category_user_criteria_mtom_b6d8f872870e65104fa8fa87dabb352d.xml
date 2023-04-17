@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category_user_criteria_mtom">
+    <sc_category_user_criteria_mtom action="DELETE">
+        <sc_category display_value="Badges">d12dea1e474e5110a6b9b6da436d43c0</sc_category>
+        <sys_class_name>sc_category_user_criteria_mtom</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2023-04-10 15:22:39</sys_created_on>
+        <sys_id>b6d8f872870e65104fa8fa87dabb352d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Badges.CW Managers and above</sys_name>
+        <sys_package display_value="Public Safety" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>sc_category_user_criteria_mtom_b6d8f872870e65104fa8fa87dabb352d</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2023-04-10 15:22:39</sys_updated_on>
+        <user_criteria display_value="CW Managers and above">92ca450f87a3b8105ce98626cebb357c</user_criteria>
+    </sc_category_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Public Safety">c8fcf6261beab4d0968db95fdc4bcb84</application>
+        <file_path/>
+        <instance_id>429f520ddb4bcb40e1b8f897bf961961</instance_id>
+        <instance_name>chwdev</instance_name>
+        <name>sc_category_user_criteria_mtom_b6d8f872870e65104fa8fa87dabb352d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category_user_criteria_mtom"><sc_category_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_category display_value="Badges">d12dea1e474e5110a6b9b6da436d43c0</sc_category><sys_class_name>sc_category_user_criteria_mtom</sys_class_name><sys_created_by>JK236</sys_created_by><sys_created_on>2023-04-10 15:22:39</sys_created_on><sys_id>b6d8f872870e65104fa8fa87dabb352d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Badges.CW Managers and above</sys_name><sys_package display_value="Public Safety" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package><sys_policy/><sys_scope display_value="Public Safety">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope><sys_update_name>sc_category_user_criteria_mtom_b6d8f872870e65104fa8fa87dabb352d</sys_update_name><sys_updated_by>JK236</sys_updated_by><sys_updated_on>2023-04-10 15:22:39</sys_updated_on><user_criteria display_value="CW Managers and above">92ca450f87a3b8105ce98626cebb357c</user_criteria></sc_category_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-870790482</payload_hash>
+        <record_name>Badges.CW Managers and above</record_name>
+        <reverted_from/>
+        <source>f35bf53887c22d504fa8fa87dabb3507</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2023-04-10 15:22:39</sys_created_on>
+        <sys_id>bed8f872870e65104fa8fa87dabb352f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1876bc313d30000001</sys_recorded_at>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2023-04-10 15:22:39</sys_updated_on>
+        <type>Category Available for</type>
+        <update_guid>b6d8f872e50e651047609d177f9ece2f</update_guid>
+        <update_guid_history>b6d8f872e50e651047609d177f9ece2f:-870790482</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 04/10/2023 10.34.19">b18bfcf6870e65104fa8fa87dabb3580</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2023-04-10 15:34:19</sys_created_on>
+        <sys_db_object display_value="" name="sc_category_user_criteria_mtom">sc_category_user_criteria_mtom</sys_db_object>
+        <sys_id>2c685a1f177f4c58aedbc7a8c209c661</sys_id>
+        <sys_metadata>b6d8f872870e65104fa8fa87dabb352d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Badges.CW Managers and above</sys_name>
+        <sys_package display_value="Public Safety" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_scope_delete display_value="">05aac3463c454d608140da3847f2c024</sys_scope_delete>
+        <sys_update_name>sc_category_user_criteria_mtom_b6d8f872870e65104fa8fa87dabb352d</sys_update_name>
+        <sys_update_version display_value="sc_category_user_criteria_mtom_b6d8f872870e65104fa8fa87dabb352d">bed8f872870e65104fa8fa87dabb352f</sys_update_version>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2023-04-10 15:34:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

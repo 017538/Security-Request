@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category_user_criteria_mtom">
+    <sc_category_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_category display_value="Cameras">246e2e9e474e5110a6b9b6da436d43dc</sc_category>
+        <sys_class_name>sc_category_user_criteria_mtom</sys_class_name>
+        <sys_created_by>JK236</sys_created_by>
+        <sys_created_on>2023-04-10 15:31:20</sys_created_on>
+        <sys_id>0edab4b6870e65104fa8fa87dabb3567</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cameras.Supervisors and above with  Exec admins</sys_name>
+        <sys_package display_value="Public Safety" source="x_chahs_security_t">c8fcf6261beab4d0968db95fdc4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Public Safety">c8fcf6261beab4d0968db95fdc4bcb84</sys_scope>
+        <sys_update_name>sc_category_user_criteria_mtom_0edab4b6870e65104fa8fa87dabb3567</sys_update_name>
+        <sys_updated_by>JK236</sys_updated_by>
+        <sys_updated_on>2023-04-10 15:31:20</sys_updated_on>
+        <user_criteria display_value="Supervisors and above with  Exec admins">16e4ffc0876b7c105ce98626cebb3592</user_criteria>
+    </sc_category_user_criteria_mtom>
+</record_update>
